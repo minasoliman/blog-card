@@ -1,3 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype'); /* Path to your font file */
+    font-weight: 100 900; /* Define the range of weights (100 to 900) */
+    font-style: normal; /* You can specify other styles like italic if available */
+}
+/*
+@font-face {
+    font-family: 'Figtree';
+    src: url('../assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype'); 
+    font-weight: 100 900; 
+    font-style: normal; 
+}
+*/
+
+
 :root {
     /*Colors*/
     --color-yellow: #F4D04E;
@@ -6,11 +32,53 @@
     --color-white: #FFFFFF;
     /*Spacing*/
     --spacing-50:4px;
-    --spacing-100:4px;
-    --spacing-150:4px;
-    --spacing-300:4px;
+    --spacing-100:8px;
+    --spacing-150:12px;
+    --spacing-300:24px;
+    /*Base Font Size*/
+    font-size: 20px;
   }
-
+/*
+html {]
+    font-family: 'Figtree', Verdana, Tahoma, sans-serif;
+    font-size: 20px;
+}
+*/
 body {
     background-color: var(--color-yellow);
+    font-family: 'Figtree', Verdana, Tahoma, sans-serif;
+}
+
+.TextPreset1 {
+    font-weight: 800;
+    font-size: 1.2rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.TextPreset2 {
+    font-weight:normal;
+    font-size: 0.8rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.TextPreset3 {
+    font-weight:normal;
+    font-size: 0.7rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+.TextPreset3b {
+    font-weight:800;
+    font-size: 0.7rem;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+.blog-previre-card {
+    background-color: var(--color-white);
+    display: inline-block;
+    padding: var(--spacing-300);
+    border-radius: 20px;
 }
