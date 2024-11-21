@@ -101,6 +101,8 @@ body {
     display: inline-block;
     position: fixed;
     bottom: var(--spacing-300);
+    padding: 0px var(--spacing-300);
+    text-align: center ;
 }
 .category {
     padding: var(--spacing-50) var(--spacing-150);
