@@ -1,0 +1,16 @@
+:root {
+    /*Colors*/
+    --color-yellow: #F4D04E;
+    --color-grey-950: #111111;
+    --color-grey-500: #6B6B6B;
+    --color-white: #FFFFFF;
+    /*Spacing*/
+    --spacing-50:4px;
+    --spacing-100:4px;
+    --spacing-150:4px;
+    --spacing-300:4px;
+  }
+
+body {
+    background-color: var(--color-yellow);
+}
