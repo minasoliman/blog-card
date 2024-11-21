@@ -47,6 +47,10 @@ html {]
 body {
     background-color: var(--color-yellow);
     font-family: 'Figtree', Verdana, Tahoma, sans-serif;
+    padding: var(--spacing-300);
+    display: grid;
+    place-items: center; 
+    height: calc(100vh - 2*var(--spacing-300));
 }
 
 .TextPreset1 {
@@ -81,4 +85,59 @@ body {
     display: inline-block;
     padding: var(--spacing-300);
     border-radius: 20px;
+    max-width: calc(384px - 2*var(--spacing-300));
+    position: absolute;
+    box-shadow: 8px 8px 0px #000;
+    margin: var(--spacing-300);
+    border: 1px solid var(--color-grey-950);
+}
+.post-hero {
+    width:100%;
+    height:auto;
+    margin-bottom: -5px;
+    border-radius: 11px;
+}
+.attribution {
+    display: inline-block;
+    position: fixed;
+    bottom: var(--spacing-300);
+}
+.category {
+    padding: var(--spacing-50) var(--spacing-150);
+    display: inline-block;
+    border-radius: 4px;
+    margin-top: var(--spacing-300);
+}
+.Learning {
+    background-color: var(--color-yellow);
+}
+
+.post-date{
+    margin-top: var(--spacing-150);
+    color: var(--color-grey-950);
+}
+.post-title{
+    margin-top: var(--spacing-150);
+    color: var(--color-grey-950);
+}
+.post-summary{
+    margin-top: var(--spacing-150);
+    color: var(--color-grey-500);
+}
+
+
+.user{
+    display: flex;
+    height:32px;
+    margin-top: var(--spacing-300);
+    align-items: center;
+}
+
+.userimg{
+    height: inherit;
+    width: auto;
+}
+
+.username{
+    margin-left: var(--spacing-150);
 }
